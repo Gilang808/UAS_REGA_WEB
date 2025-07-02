@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restoran Nusantara - Menu Digital</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">🍴 Restoran Nusantara</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#promo">Promo</a></li>
+                <li><a href="#tentang">Tentang</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-badge">⭐ Restoran Terpopuler 2025</div>
+            <h1>Cita Rasa Nusantara</h1>
+            <p>Nikmati kelezatan masakan tradisional Indonesia dengan sentuhan modern. Dibuat dengan bahan-bahan segar dan resep turun temurun.</p>
+        </div>
+    </section>
+
+    <!-- Menu Categories -->
+    <div class="menu-categories">
+        <button class="category-btn active" data-category="all">Semua Menu</button>
+        <button class="category-btn" data-category="makanan-utama">Makanan Utama</button>
+        <button class="category-btn" data-category="appetizer">Appetizer</button>
+        <button class="category-btn" data-category="minuman">Minuman</button>
+        <button class="category-btn" data-category="dessert">Dessert</button>
+    </div>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu-section">
+        <div class="menu-grid">
+            <!-- Makanan Utama -->
+            <div class="menu-item" data-category="makanan-utama">
+                <div class="menu-item-image">
+                    <img src="nasi gudeg jogja.jpeg" alt="Nasi Gudeg Jogja">
+                    <div class="price-tag">Rp 45.000</div>
+                </div>
+                <div class="menu-item-content">
+                    <h3>Nasi Gudeg Jogja</h3>
+                    <p>Gudeg khas Jogja dengan kuah santan yang gurih, dilengkapi ayam kampung, telur, dan krecek. Disajikan dengan nasi hangat dan sambal kecap.</p>
+                    <div class="menu-item-footer">
+                        <div class="rating">⭐⭐⭐⭐⭐ 4.8</div>
+                        <button class="add-btn">Pesan</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="makanan-utama">
+                <div class="menu-item-image">
+                    <img src="rendang daging sapi.jpeg" alt="Rendang Daging Sapi">
+                    <div class="price-tag">Rp 38.000</div>
+                </div>
+                <div class="menu-item-content">
+                    <h3>Rendang Daging Sapi</h3>
+                    <p>Rendang daging sapi Padang yang dimasak dengan bumbu rempah pilihan. Tekstur daging yang empuk dengan cita rasa yang kaya.</p>
+                    <div class="menu-item-footer">
+                        <div class="rating">⭐⭐⭐⭐⭐ 4.9</div>
+                        <button class="add-btn">Pesan</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="makanan-utama">
+                <div class="menu-item-image">
+                    <img src="ayam bakar taliwang.jpg" alt="Ayam Bakar Taliwang">
+                    <div class="price-tag">Rp 42.000</div>
+                </div>
+                <div class="menu-item-content">
+                    <h3>Ayam Bakar Taliwang</h3>
+                    <p>Ayam bakar khas Lombok dengan bumbu plecing yang pedas dan segar. Disajikan dengan plecing kangkung dan sambal terasi.</p>
+                    <div class="menu-item-footer">
+                        <div class="rating">⭐⭐⭐⭐ 4.7</div>
+                        <button class="add-btn">Pesan</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Appetizer -->
+            <div class="menu-item" data-category="appetizer">
+                <div class="menu-item-image">
+                    <img src="ado gado jakarta.jpg" alt="Gado-Gado Jakarta">
+                    <div class="price-tag">Rp 25.000</div>
+                </div>
+                <div class="menu-item-content">
+                    <h3>Gado-Gado Jakarta</h3>
+                    <p>Campuran sayuran segar dengan bumbu kacang yang gurih. Dilengkapi kerupuk, telur rebus, dan emping melinjo.</p>
+                    <div class="menu-item-footer">
+                        <div class="rating">⭐⭐⭐⭐ 4.6</div>
+                        <button class="add-btn">Pesan</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="appetizer">
+                <div class="menu-item-image">
+                    <img src="kerak telor betawi.jpg" alt="Kerak Telor Betawi">
+                    <div class="price-tag">Rp 28.000</div>
+                </div>
+                <div class="menu-item-content">
+                    <h3>Kerak Telor Betawi</h3>
+                    <p>Makanan tradisional Betawi yang terbuat dari beras ketan, telur ayam, ebi, dan kelapa sangrai. Citarasa yang unik dan autentik.</p>
+                    <div class="menu-item-footer">
+                        <div class="rating">⭐⭐⭐⭐ 4.5</div>
+                        <button class="add-btn">Pesan</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Minuman -->
+            <div class="menu-item" data-category="minuman">
+                <div class="menu-item-image">
+                    <img src="es cendol durian.jpg" alt="Es Cendol Durian">
+                    <div class="price-tag">Rp 18.000</div>
+                </div>
+                <div class="menu-item-content">
+                    <h3>Es Cendol Durian</h3>
+                    <p>Minuman segar dengan cendol, santan, gula merah, dan potongan durian segar. Sempurna untuk cuaca panas.</p>
+                    <div class="menu-item-footer">
+                        <div class="rating">⭐⭐⭐⭐⭐ 4.8</div>
+                        <button class="add-btn">Pesan</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="minuman">
+                <div class="menu-item-image">
+                    <img src="wedang jahe susu.jpg" alt="Wedang Jahe Susu">
+                    <div class="price-tag">Rp 15.000</div>
+                </div>
+                <div class="menu-item-content">
+                    <h3>Wedang Jahe Susu</h3>
+                    <p>Minuman hangat dari jahe segar, susu, dan gula aren. Cocok untuk menghangatkan tubuh dan menjaga kesehatan.</p>
+                    <div class="menu-item-footer">
+                        <div class="rating">⭐⭐⭐⭐ 4.7</div>
+                        <button class="add-btn">Pesan</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dessert -->
+            <div class="menu-item" data-category="dessert">
+                <div class="menu-item-image">
+                    <img src="klepon pandan.jpg" alt="Klepon Pandan">
+                    <div class="price-tag">Rp 22.000</div>
+                </div>
+                <div class="menu-item-content">
+                    <h3>Klepon Pandan</h3>
+                    <p>Kue tradisional dari tepung ketan dengan isian gula merah cair, dibungkus kelapa parut. Warna hijau alami dari daun pandan.</p>
+                    <div class="menu-item-footer">
+                        <div class="rating">⭐⭐⭐⭐ 4.6</div>
+                        <button class="add-btn">Pesan</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="dessert">
+                <div class="menu-item-image">
+                    <img src="es pisang ijo.jpg" alt="Es Pisang Ijo">
+                    <div class="price-tag">Rp 20.000</div>
+                </div>
+                <div class="menu-item-content">
+                    <h3>Es Pisang Ijo</h3>
+                    <p>Dessert khas Makassar dengan pisang yang dibungkus dadar pandan, disajii dengan es serut, sirup, dan susu kental manis.</p>
+                    <div class="menu-item-footer">
+                        <div class="rating">⭐⭐⭐⭐ 4.5</div>
+                        <button class="add-btn">Pesan</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Offers -->
+    <section id="promo" class="special-offers">
+        <h2>🎉 Promo Spesial Hari Ini</h2>
+        <div class="offers-grid">
+            <div class="offer-card">
+                <h3>Paket Hemat Keluarga</h3>
+                <p>4 Porsi Nasi + 2 Ayam Bakar + 2 Minuman</p>
+                <div class="offer-price">Rp 120.000</div>
+                <p><s>Rp 160.000</s> - Hemat 25%!</p>
+            </div>
+            <div class="offer-card">
+                <h3>Menu Romantis</h3>
+                <p>2 Porsi Rendang + 2 Es Cendol + Dessert</p>
+                <div class="offer-price">Rp 85.000</div>
+                <p><s>Rp 110.000</s> - Hemat 23%!</p>
+            </div>
+            <div class="offer-card">
+                <h3>Lunch Special</h3>
+                <p>Menu Utama + Minuman + Appetizer</p>
+                <div class="offer-price">Rp 55.000</div>
+                <p><s>Rp 70.000</s> - Hemat 21%!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Restaurant -->
+    <section id="tentang" class="about-restaurant">
+        <h2>Tentang Restoran Nusantara</h2>
+        <p style="font-size: 1.1rem; max-width: 800px; margin: 0 auto; color: #7f8c8d;">
+            Sejak 1985, Restoran Nusantara telah menghadirkan cita rasa autentik Indonesia dengan kualitas terbaik. 
+            Kami bangga menyajikan masakan tradisional yang dipadukan dengan pelayanan modern.
+        </p>
+        
+        <div class="restaurant-info">
+            <div class="info-card">
+                <h3>📍 Lokasi</h3>
+                <p>Jl. Kuliner Nusantara No. 123<br>Jakarta Selatan, 12345</p>
+            </div>
+            <div class="info-card">
+                <h3>⏰ Jam Buka</h3>
+                <p>Senin - Minggu<br>10:00 - 22:00 WIB</p>
+            </div>
+            <div class="info-card">
+                <h3>👨‍🍳 Chef Berpengalaman</h3>
+                <p>Tim chef berpengalaman 15+ tahun<br>Resep turun temurun</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="kontak">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Kontak Kami</h3>
+                <p>📞 (021) 123-4567</p>
+                <p>📱 0812-3456-7890</p>
+                <p>✉️ iskandarrega22@gmail.com</p>
+            </div>
+            <div class="footer-section">
+                <h3>Media Sosial</h3>
+                <p>📘 Facebook: Restoran Nusantara</p>
+                <p>📷 Instagram: @restorangusantara</p>
+                <p>🐦 Twitter: @resto_nusantara</p>
+            </div>
+            <div class="footer-section">
+                <h3>Layanan</h3>
+                <p>🚗 Delivery Available</p>
+                <p>📦 Take Away</p>
+                <p>🍽️ Dine In</p>
+                <p>🎉 Catering & Event</p>
+            </div>
+        </div>
+        <hr style="margin: 2rem 0; border: 1px solid #34495e;">
+        <p>&copy; 2025 Restoran Nusantara. By iskandar Rega ❤️ 221011450531/05TPLE005.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
